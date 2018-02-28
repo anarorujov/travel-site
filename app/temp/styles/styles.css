@@ -830,22 +830,6 @@ a {
             display: flex;
         }
 
-@media (min-width: 63.125em) {
-
-.row--equal-height-at-Large {
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex
-    }
-    }
-
-.row--equal-height-at-Large > div {
-            float: none;
-            display: -webkit-box;
-            display: -ms-flexbox;
-            display: flex;
-        }
-
 .generic-content-container p {
         font-weight: 300;
         line-height: 1.65;
@@ -1241,4 +1225,18 @@ a {
         padding: 0.75rem 0;
         background-color: transparent
 }
+    }
+
+.reveal-item {
+    opacity: 0;
+    -webkit-transition: all 1.5s ease-out;
+    transition: all 1.5s ease-out;
+    -webkit-transform: scale(1.15);
+            transform: scale(1.15);
+}
+
+.reveal-item--is-visible {
+        opacity: 1;
+        -webkit-transform: scale(1);
+                transform: scale(1);
     }

@@ -104,15 +104,4 @@
             display: flex;
         }
     }
-
-    &--equal-height-at-Large {
-        @mixin atLarge {
-            display: flex;
-        }
-
-        & > div {
-            float: none;
-            display: flex;
-        }
-    }
 }
