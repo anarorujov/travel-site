@@ -1220,11 +1220,11 @@ a {
 
 @media (min-width: 50em) {
 
-.primary-nav {
-        font-size: 1rem;
-        padding: 0.75rem 0;
-        background-color: transparent
-}
+.primary-nav a {
+            font-size: 1rem;
+            padding: 0.75rem 0;
+            background-color: transparent
+    }
     }
 
 .reveal-item {

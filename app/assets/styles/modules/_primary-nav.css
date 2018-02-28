@@ -45,11 +45,11 @@
         display: block;
         padding: 0.3125rem 0.5rem;
         background-color: rgba($mainBlue, .5);
-    }
 
-    @mixin atMedium {
-        font-size: 1rem;
-        padding: 0.75rem 0;
-        background-color: transparent;
+        @mixin atMedium {
+            font-size: 1rem;
+            padding: 0.75rem 0;
+            background-color: transparent;
+        }
     }
 }
